@@ -1,7 +1,7 @@
 # chipguy_cyd2432S024_display
 
 A self-contained **display + touch** driver for the **CYD ESP32-2432S024[R]**
-("Cheap Yellow Display") — the common ESP32 dev board with a 2.4" 240×320 SPI
+("Cheap Yellow Display") — a low-cost ESP32 dev board with a 2.4" 240×320 SPI
 LCD and a resistive touch panel. It drives the display and the
 touch controller so you don't have to think about either: the
 hardware is fixed and fully handled, leaving you to write an **LVGL 9** app and
@@ -13,8 +13,10 @@ and running before your code gets control. You pick the one that matches how you
 want to build your UI, copy it, and start replacing its placeholder UI with your
 own.
 
-> This is for the **ILI9341 LCD with XPT2046 touch** flavor of the board. There are
-> CYD variants with different controllers (e.g. ST7789); those need a different library.
+> This is for the 2.4 inch **2432S024** / **ESP32-024** version of the board.  The more common
+> 2.8 inch **2432S028** CYD is wired differently and needs a different library. There are
+> also CYD variants with different controllers (e.g. ST7789); those need a different library.
+> 
 
 ---
 
